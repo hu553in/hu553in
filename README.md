@@ -2,12 +2,12 @@
 
 #### My name is Ruslan Khasanshin.
 
-I'm a full-stack web developer from Omsk, Russia.
+I'm a 🧑‍💻 full-stack web developer from Omsk, 🇷🇺 Russia.
 
-Also, I'm an undergraduate student at OmSTU.\
-My speciality is called "Software Engineering".
+Also, I'm an 🧑‍🎓 undergraduate student at OmSTU.\
+My speciality is called 🔧 "Software Engineering".
 
-You can reach me via:
+🤙 You can reach me via:
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg' alt='gmail' height='40'>](mailto:r.m.khasanshin@gmail.com)
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/skype.svg' alt='skype' height='40'>](https://join.skype.com/invite/iiMdfYEc8PZN)
