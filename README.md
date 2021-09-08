@@ -2,7 +2,7 @@
 
 #### My name is Ruslan Khasanshin.
 
-I'm a 🧑‍💻 full-stack web developer from Omsk, 🇷🇺 Russia.
+I'm the developer from [🇷🇺 Omsk, Russia](https://goo.gl/maps/CbQn6KWqqoLmqTss6).
 
 To learn more, visit [📃 my personal page](https://hu553in.xyz).
 
