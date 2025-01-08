@@ -11,7 +11,7 @@ on:
       - master
 
 jobs:
-  generate:
+  snake:
     permissions: 
       contents: write
     runs-on: ubuntu-latest
