@@ -41,3 +41,24 @@ Cheers! 🙋‍♂️
     />
   </picture>
 </div>
+
+###
+
+<div align="center">
+  <a href="https://leetcode.com/u/hu553in/">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://leetcard.jacoblin.cool/hu553in?theme=dark&font=JetBrains%20Mono"
+      />
+      <source
+        media="(prefers-color-scheme: light)"
+        srcset="https://leetcard.jacoblin.cool/hu553in?theme=light&font=JetBrains%20Mono"
+      />
+      <img
+        alt="leetcode-stats"
+        src="https://leetcard.jacoblin.cool/hu553in?theme=light&font=JetBrains%20Mono"
+      />
+    </picture>
+  </a>
+</div>
