@@ -1,16 +1,17 @@
-### Hi there 👋, stranger...
+### Hi there 👋
 
-#### My name is Ruslan Khasanshin.
+#### I’m Ruslan Khasanshin
 
-I'm a software engineer.
+I’m a software engineer focused on backend development.
 
-My main specialization is backend development in Java, Kotlin, Go and Python.
+My primary stack includes **Java**, **Kotlin**, **Go**, and **Python**, with an emphasis
+on building reliable, maintainable systems and automation-friendly tooling.
 
-To learn more, visit [📃 my personal page](https://hu553in.su).
+To learn more about my work and background, visit [📃 hu553in.su](https://hu553in.su).
 
 Cheers! 🙋‍♂️
 
-###
+---
 
 <div align="center">
   <img
@@ -24,6 +25,8 @@ Cheers! 🙋‍♂️
     alt="Languages graph"
   />
 </div>
+
+---
 
 <div align="center">
   <picture>
@@ -42,7 +45,7 @@ Cheers! 🙋‍♂️
   </picture>
 </div>
 
-###
+---
 
 <div align="center">
   <a href="https://leetcode.com/u/hu553in/">
