@@ -2,7 +2,7 @@ name: CI
 
 on:
   schedule:
-    - cron: "0 */1 * * *" 
+    - cron: "0 */1 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -10,20 +10,18 @@ on:
 
 jobs:
   snake:
-    permissions: 
+    permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Generate snake SVG
-        uses: Platane/snk/svg-only@v3
+      - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - name: Push snake SVG to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
