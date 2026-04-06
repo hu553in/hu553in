@@ -11,8 +11,6 @@ To learn more about my work and background, visit [📃 hu553in.su](https://hu55
 
 Cheers! 🙋‍♂️
 
----
-
 <div align="center">
   <img
     src="https://github-readme-stats-hu553in.vercel.app/api?username=hu553in&show_icons=true&include_all_commits=true&count_private=true&theme=dracula"
@@ -25,8 +23,6 @@ Cheers! 🙋‍♂️
     alt="Languages graph"
   />
 </div>
-
----
 
 <div align="center">
   <picture>
@@ -44,8 +40,6 @@ Cheers! 🙋‍♂️
     />
   </picture>
 </div>
-
----
 
 <div align="center">
   <a href="https://leetcode.com/u/hu553in/">
