@@ -13,14 +13,14 @@ Cheers! 🙋‍♂️
 
 <div align="center">
   <img
-    src="https://github-readme-stats-hu553in.vercel.app/api?username=hu553in&show_icons=true&include_all_commits=true&count_private=true&theme=dracula"
+    src="https://raw.githubusercontent.com/hu553in/hu553in/output/stats.svg"
     height="150"
-    alt="Statistics graph"
+    alt="stats"
   />
   <img
-    src="https://github-readme-stats-hu553in.vercel.app/api/top-langs?username=hu553in&layout=compact&card_width=320&langs_count=5&theme=dracula"
+    src="https://raw.githubusercontent.com/hu553in/hu553in/output/top-langs.svg"
     height="150"
-    alt="Languages graph"
+    alt="top-langs"
   />
 </div>
 
