@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-#### I'm Ruslan Khasanshin
+#### I'm Ruslan Khasanshin.
 
 I'm a software engineer focused on backend development.
 
