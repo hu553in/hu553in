@@ -1,15 +1,11 @@
-### Hi there 👋
+# Ruslan Khasanshin
 
-#### I'm Ruslan Khasanshin.
+Software engineer focused on backend development.
 
-I'm a software engineer focused on backend development.
+Primary stack: **Java**, **Kotlin**, **Go**, and **Python**. I focus on reliable, maintainable
+systems and automation-friendly tooling.
 
-My primary stack includes **Java**, **Kotlin**, **Go**, and **Python**, with an emphasis on building
-reliable, maintainable systems and automation-friendly tooling.
-
-To learn more about my work and background, visit [📃 hu553in.su](https://hu553in.su).
-
-Cheers! 🙋‍♂️
+More background: [hu553in.su](https://hu553in.su).
 
 <div align="center">
   <img
