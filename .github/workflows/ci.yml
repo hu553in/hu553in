@@ -4,15 +4,32 @@ on:
   push:
     branches:
       - main
+  pull_request:
   schedule:
     - cron: '47 3 * * *'
   workflow_dispatch:
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: oven-sh/setup-bun@v2
+      - run: make check
+
   cards:
+    needs: check
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      STATS_OPTIONS: show_icons=true&include_all_commits=true&count_private=true&theme=dracula
+      TOP_LANGS_OPTIONS: layout=compact&card_width=320&langs_count=5&theme=dracula
     steps:
       - uses: Platane/snk/svg-only@v3
         with:
@@ -23,13 +40,13 @@ jobs:
       - uses: readme-tools/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&theme=dracula
+          options: username=${{ github.repository_owner }}&${{ env.STATS_OPTIONS }}
           path: dist/stats.svg
           token: ${{ secrets.GRS_PAT }}
       - uses: readme-tools/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&card_width=320&langs_count=5&theme=dracula
+          options: username=${{ github.repository_owner }}&${{ env.TOP_LANGS_OPTIONS }}
           path: dist/top-langs.svg
           token: ${{ secrets.GRS_PAT }}
       - uses: crazy-max/ghaction-github-pages@v5
