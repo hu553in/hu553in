@@ -27,9 +27,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      STATS_OPTIONS: show_icons=true&include_all_commits=true&count_private=true&theme=dracula
-      TOP_LANGS_OPTIONS: layout=compact&card_width=320&langs_count=5&theme=dracula
     steps:
       - uses: Platane/snk/svg-only@v3
         with:
@@ -37,21 +34,45 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: readme-tools/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&${{ env.STATS_OPTIONS }}
-          path: dist/stats.svg
-          token: ${{ secrets.GRS_PAT }}
-      - uses: readme-tools/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&${{ env.TOP_LANGS_OPTIONS }}
-          path: dist/top-langs.svg
-          token: ${{ secrets.GRS_PAT }}
       - uses: crazy-max/ghaction-github-pages@v5
         with:
-          target_branch: output
+          target_branch: snake-output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: hu553in/ascii-profile-card@v1.0.0
+        with:
+          token: ${{ secrets.ASCII_PROFILE_CARD_PAT }}
+          branch: ascii-profile-card-output
+          config: |
+            login: hu553in
+            uptimeStart: 2017-09-01
+            card:
+              lowercase: true
+              lines:
+                - { type: header, text: "ruslan khasanshin" }
+                - { type: kv, key: role, value: "senior product engineer" }
+                - { type: kv, key: work, value: "senior backend engineer @ qic digital hub" }
+                - { type: kv, key: side, value: "founder @ voomy" }
+                - { type: kv, key: uptime, value: "{uptime} in the industry" }
+                - { type: blank }
+                - { type: kv, key: stack.work, value: "go, postgres, kafka, redis" }
+                - { type: kv, key: stack.side, value: "ts, next, vercel, shadcn, tailwind, drizzle" }
+                - { type: kv, key: stack.infra, value: "linux, docker, ansible, nginx, caddy" }
+                - { type: kv, key: stack.roots, value: "java, kotlin, spring boot, react, c/c++" }
+                - { type: kv, key: interests, value: "ai, oss, self-hosting, vibe-coding" }
+                - { type: kv, key: languages.real, value: "ru, en" }
+                - { type: blank }
+                - { type: section, title: contact }
+                - { type: kv, key: site, value: hu553in.su }
+                - { type: kv, key: telegram, value: t.me/rkhasanshin }
+                - { type: kv, key: email, value: hu553in@poke.com }
+                - { type: kv, key: linkedin, value: linkedin.com/in/ruslan-khasanshin }
+                - { type: blank }
+                - { type: section, title: github stats }
+                - { type: kv, key: repos, value: "{repos} (contributed to {contributedRepos})" }
+                - { type: kv, key: stars, value: "{stars}" }
+                - { type: kv, key: followers, value: "{followers}" }
+                - { type: kv, key: contributions, value: "{contributions} (all time)" }
+                - { type: kv, key: lines of code, value: "{loc} ({locAdded}, {locDeleted})" }
+                - { type: kv, key: top languages, value: "{topLanguages}" }
