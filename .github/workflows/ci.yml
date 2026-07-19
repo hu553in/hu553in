@@ -40,7 +40,7 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - uses: hu553in/ascii-profile-card@v1.0.0
+      - uses: hu553in/ascii-profile-card@v1
         with:
           token: ${{ secrets.ASCII_PROFILE_CARD_PAT }}
           branch: ascii-profile-card-output
