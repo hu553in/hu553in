@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1096px" height="552px" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, monospace" font-size="16px">
+<style>
+.key {fill: #953800;}
+.value {fill: #0a3069;}
+.dots {fill: #9ba3ae;}
+.added {fill: #1a7f37;}
+.deleted {fill: #cf222e;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="1096px" height="552px" fill="#f6f8fa" rx="15"/>
+<text fill="#24292f">
+<tspan x="16" y="30">@*@@@*       +@:   .:  -+*@-  +%@*=:.-*@@@</tspan>
+<tspan x="16" y="50">@%@@@@-   :-#@+        -#%@%+. .-.     :-=</tspan>
+<tspan x="16" y="70">@@@@@@=  -%@@=        ...=%@@=            </tspan>
+<tspan x="16" y="90">@@@%*-   =@@%+:      .:::+%++=..         .</tspan>
+<tspan x="16" y="110">@@#:   .  :=*%%+ .::.......   :::.        </tspan>
+<tspan x="16" y="130">--.  .:.   .: +#: ..  ..           .:+*:  </tspan>
+<tspan x="16" y="150">    :-:   .@@-.==:...::..  .+#**#@%=:=#: .</tspan>
+<tspan x="16" y="170">.   :=-    =%+   ..---=+##+####=:*.  :=   </tspan>
+<tspan x="16" y="190">      ..:.    :==. .. .:+%+=. ..+%--=*#.  </tspan>
+<tspan x="16" y="210">.   ==-=====-=+++==+*%@%%@%%%%%@%+==#%@%-.</tspan>
+<tspan x="16" y="230">#%#:+*.    ..   ..::::---::::..      ..=*.</tspan>
+<tspan x="16" y="250">%%@@%@+.  .   -**==++++*+-:.  .+##*=    :.</tspan>
+<tspan x="16" y="270">#@@@@@*   .  -:.  ...::+%@@%##%@@@@=     .</tspan>
+<tspan x="16" y="290">@@@@@@=      .          :#%@@@%@@#=  .***+</tspan>
+<tspan x="16" y="310">@%%@%#.           :      .+@#===-  .=*-.  </tspan>
+<tspan x="16" y="330">*#@+.    ...   .  *-   *+  .:-  -=-:.   :=</tspan>
+<tspan x="16" y="350">%%-                   -@*     -+:    .++==</tspan>
+<tspan x="16" y="370">@*:.     ..          .#@%.   -*      .#.  </tspan>
+<tspan x="16" y="390">%#       .:.          =@@*   ++   .: .-#+:</tspan>
+<tspan x="16" y="410">*#=:.    .       ..   =@###.  **+*%%**#%@%</tspan>
+<tspan x="16" y="430">#-%@@:                :%@@#=:  :%##%#+@@@@</tspan>
+<tspan x="16" y="450">%%%*=.                :@%@%%#+=*%#+*%**@@@</tspan>
+<tspan x="16" y="470">@@#:          .:.    :==*+--   :#@*=#@**@@</tspan>
+<tspan x="16" y="490">@@%+-.        .     --         -%@*:#%%#@@</tspan>
+<tspan x="16" y="510">###*-..             :*. --     ....-***#*@</tspan>
+<tspan x="16" y="530">+-**++##*:          .#. =.         .-=+%%#</tspan>
+</text>
+<text fill="#24292f">
+<tspan x="456" y="30">ruslan khasanshin <tspan class="dots">——————————————————————————————————————</tspan></tspan>
+<tspan x="456" y="50"><tspan class="dots">. </tspan><tspan class="key">role</tspan>: <tspan class="dots">........... </tspan><tspan class="value">senior product engineer</tspan></tspan>
+<tspan x="456" y="70"><tspan class="dots">. </tspan><tspan class="key">work</tspan>: <tspan class="dots">........... </tspan><tspan class="value">senior backend engineer @ qic digital hub</tspan></tspan>
+<tspan x="456" y="90"><tspan class="dots">. </tspan><tspan class="key">side</tspan>: <tspan class="dots">........... </tspan><tspan class="value">founder @ voomy</tspan></tspan>
+<tspan x="456" y="110"><tspan class="dots">. </tspan><tspan class="key">uptime</tspan>: <tspan class="dots">......... </tspan><tspan class="value">8 years, 10 months in the industry</tspan></tspan>
+<tspan x="456" y="150"><tspan class="dots">. </tspan><tspan class="key">stack.work</tspan>: <tspan class="dots">..... </tspan><tspan class="value">go, postgres, kafka, redis</tspan></tspan>
+<tspan x="456" y="170"><tspan class="dots">. </tspan><tspan class="key">stack.side</tspan>: <tspan class="dots">..... </tspan><tspan class="value">ts, next, vercel, shadcn, tailwind, drizzle</tspan></tspan>
+<tspan x="456" y="190"><tspan class="dots">. </tspan><tspan class="key">stack.infra</tspan>: <tspan class="dots">.... </tspan><tspan class="value">linux, docker, ansible, nginx, caddy</tspan></tspan>
+<tspan x="456" y="210"><tspan class="dots">. </tspan><tspan class="key">stack.roots</tspan>: <tspan class="dots">.... </tspan><tspan class="value">java, kotlin, spring boot, react, c/c++</tspan></tspan>
+<tspan x="456" y="230"><tspan class="dots">. </tspan><tspan class="key">interests</tspan>: <tspan class="dots">...... </tspan><tspan class="value">ai, oss, self-hosting, vibe-coding</tspan></tspan>
+<tspan x="456" y="250"><tspan class="dots">. </tspan><tspan class="key">languages.real</tspan>: <tspan class="dots">. </tspan><tspan class="value">ru, en</tspan></tspan>
+<tspan x="456" y="290">- contact <tspan class="dots">——————————————————————————————————————————————</tspan></tspan>
+<tspan x="456" y="310"><tspan class="dots">. </tspan><tspan class="key">site</tspan>: <tspan class="dots">........... </tspan><tspan class="value">hu553in.su</tspan></tspan>
+<tspan x="456" y="330"><tspan class="dots">. </tspan><tspan class="key">telegram</tspan>: <tspan class="dots">....... </tspan><tspan class="value">t.me/rkhasanshin</tspan></tspan>
+<tspan x="456" y="350"><tspan class="dots">. </tspan><tspan class="key">email</tspan>: <tspan class="dots">.......... </tspan><tspan class="value">hu553in@poke.com</tspan></tspan>
+<tspan x="456" y="370"><tspan class="dots">. </tspan><tspan class="key">linkedin</tspan>: <tspan class="dots">....... </tspan><tspan class="value">linkedin.com/in/ruslan-khasanshin</tspan></tspan>
+<tspan x="456" y="410">- github stats <tspan class="dots">—————————————————————————————————————————</tspan></tspan>
+<tspan x="456" y="430"><tspan class="dots">. </tspan><tspan class="key">repos</tspan>: <tspan class="dots">.......... </tspan><tspan class="value">25 (contributed to 9)</tspan></tspan>
+<tspan x="456" y="450"><tspan class="dots">. </tspan><tspan class="key">stars</tspan>: <tspan class="dots">.......... </tspan><tspan class="value">28</tspan></tspan>
+<tspan x="456" y="470"><tspan class="dots">. </tspan><tspan class="key">followers</tspan>: <tspan class="dots">...... </tspan><tspan class="value">24</tspan></tspan>
+<tspan x="456" y="490"><tspan class="dots">. </tspan><tspan class="key">contributions</tspan>: <tspan class="dots">.. </tspan><tspan class="value">2,126 (all time)</tspan></tspan>
+<tspan x="456" y="510"><tspan class="dots">. </tspan><tspan class="key">lines of code</tspan>: <tspan class="dots">.. </tspan><tspan class="value">295,416 (<tspan class="added">405,468++</tspan>, <tspan class="deleted">110,052--</tspan>)</tspan></tspan>
+<tspan x="456" y="530"><tspan class="dots">. </tspan><tspan class="key">top languages</tspan>: <tspan class="dots">.. </tspan><tspan class="value">typescript, kotlin, python, go</tspan></tspan>
+</text>
+</svg>
