@@ -50,26 +50,26 @@ jobs:
             card:
               lowercase: true
               lines:
-                - { type: header, text: "ruslan khasanshin" }
-                - { type: kv, key: role, value: "senior product engineer" }
+                - { type: header, text: "hu553in" }
+                - { type: kv, key: role, value: "senior software engineer — product & platform" }
                 - { type: kv, key: work, value: "senior backend engineer @ qic digital hub" }
-                - { type: kv, key: side, value: "founder @ voomy" }
+                - { type: kv, key: product, value: "building voomy" }
                 - { type: kv, key: uptime, value: "{uptime} in the industry" }
                 - { type: blank }
-                - { type: kv, key: stack.work, value: "go, postgres, kafka, redis" }
-                - { type: kv, key: stack.side, value: "ts, next, vercel, shadcn, tailwind, drizzle" }
-                - { type: kv, key: stack.infra, value: "linux, docker, ansible, nginx, caddy" }
-                - { type: kv, key: stack.roots, value: "java, kotlin, spring boot, react, c/c++" }
-                - { type: kv, key: interests, value: "ai, oss, self-hosting, vibe-coding" }
+                - { type: kv, key: stack.main, value: "typescript, go, java/kotlin, python" }
+                - { type: kv, key: stack.web, value: "react, next.js, node.js, bun" }
+                - { type: kv, key: stack.data, value: "postgres, kafka, redis, clickhouse" }
+                - { type: kv, key: stack.ops, value: "opentelemetry, prometheus, grafana, docker" }
+                - { type: kv, key: interests, value: "ai, oss, self-hosting, vibe coding, product design" }
                 - { type: kv, key: languages.real, value: "ru, en" }
                 - { type: blank }
-                - { type: section, title: contact }
-                - { type: kv, key: site, value: hu553in.su }
-                - { type: kv, key: telegram, value: t.me/rkhasanshin }
-                - { type: kv, key: email, value: hu553in@poke.com }
-                - { type: kv, key: linkedin, value: linkedin.com/in/ruslan-khasanshin }
+                - { type: section, title: "contact" }
+                - { type: kv, key: site, value: "hu553in.su" }
+                - { type: kv, key: email, value: "r.m.khasanshin@gmail.com" }
+                - { type: kv, key: linkedin, value: "linkedin.com/in/ruslan-khasanshin" }
+                - { type: kv, key: telegram, value: "t.me/rkhasanshin" }
                 - { type: blank }
-                - { type: section, title: github stats }
+                - { type: section, title: "github stats" }
                 - { type: kv, key: repos, value: "{repos} (contributed to {contributedRepos})" }
                 - { type: kv, key: stars, value: "{stars}" }
                 - { type: kv, key: followers, value: "{followers}" }

@@ -1,5 +1,15 @@
 # Ruslan Khasanshin
 
+**Senior Software Engineer — Product & Platform**
+
+I build products end to end and the platform foundations behind them — distributed systems,
+developer tooling, observability, and product UI.
+
+Currently building [voomy](https://dev.voomy.tv/product).
+
+[Website](https://hu553in.su) · [Resume](https://hu553in.su/resume.pdf) ·
+[LinkedIn](https://www.linkedin.com/in/ruslan-khasanshin) · [Email](mailto:r.m.khasanshin@gmail.com)
+
 <div align="center">
   <picture>
     <source
