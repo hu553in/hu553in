@@ -61,7 +61,7 @@ jobs:
                 - { type: kv, key: skills.data, value: "postgres, clickhouse, redis, kafka, grpc/protobuf" }
                 - { type: kv, key: skills.platform, value: "otel, prometheus, grafana, docker, k8s" }
                 - { type: kv, key: skills.ops, value: "gitlab ci, github actions, ansible" }
-                - { type: kv, key: interests, value: "ai, oss, self-hosting, product design" }
+                - { type: kv, key: interests, value: "ai, vibe code, oss, self-hosting, product design" }
                 - { type: kv, key: languages.real, value: "ru, en" }
                 - { type: blank }
                 - { type: section, title: "contact" }
