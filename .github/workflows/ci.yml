@@ -56,11 +56,12 @@ jobs:
                 - { type: kv, key: product, value: "building voomy" }
                 - { type: kv, key: uptime, value: "{uptime} in the industry" }
                 - { type: blank }
-                - { type: kv, key: stack.main, value: "typescript, go, java/kotlin, python" }
-                - { type: kv, key: stack.web, value: "react, next.js, node.js, bun" }
-                - { type: kv, key: stack.data, value: "postgres, kafka, redis, clickhouse" }
-                - { type: kv, key: stack.ops, value: "opentelemetry, prometheus, grafana, docker" }
-                - { type: kv, key: interests, value: "ai, oss, self-hosting, vibe coding, product design" }
+                - { type: kv, key: skills.product, value: "ts, js, react, next.js" }
+                - { type: kv, key: skills.backend, value: "node.js, bun, go, java/kotlin, python" }
+                - { type: kv, key: skills.data, value: "postgres, clickhouse, redis, kafka, grpc/protobuf" }
+                - { type: kv, key: skills.platform, value: "otel, prometheus, grafana, docker, k8s" }
+                - { type: kv, key: skills.ops, value: "gitlab ci, github actions, ansible" }
+                - { type: kv, key: interests, value: "ai, oss, self-hosting, product design" }
                 - { type: kv, key: languages.real, value: "ru, en" }
                 - { type: blank }
                 - { type: section, title: "contact" }
