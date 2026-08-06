@@ -57,8 +57,8 @@ jobs:
                 - { type: kv, key: uptime, value: "{uptime} in the industry" }
                 - { type: blank }
                 - { type: kv, key: skills.product, value: "ts, js, react, next.js" }
-                - { type: kv, key: skills.backend, value: "node.js, bun, go, java/kotlin, python, grpc/protobuf" }
-                - { type: kv, key: skills.data, value: "postgres, clickhouse, redis, kafka" }
+                - { type: kv, key: skills.backend, value: "node.js, bun, go, java/kotlin, python/django, grpc/protobuf" }
+                - { type: kv, key: skills.data, value: "postgres/postgis, clickhouse, redis, kafka" }
                 - { type: kv, key: skills.platform, value: "otel, prometheus, grafana, docker, k8s" }
                 - { type: kv, key: skills.ops, value: "gitlab ci, github actions, ansible" }
                 - { type: kv, key: interests, value: "ai, vibe coding, oss, self-hosting, product design" }
