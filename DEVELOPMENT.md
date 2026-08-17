@@ -7,4 +7,4 @@ Commitlint hooks once:
 git config --local include.path ../.gitconfig
 ```
 
-Run `make check` to validate formatting and GitHub Actions workflows.
+Run `make check` to validate formatting, the Renovate configuration, and GitHub Actions workflows.
