@@ -9,6 +9,10 @@ on:
     - cron: '47 3 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref_type != 'tag' }}
+
 jobs:
   check:
     runs-on: ubuntu-latest
