@@ -7,7 +7,7 @@ developer tooling, observability, and product UI.
 
 Currently building [voomy](https://voomy.tv/product).
 
-[Website](https://hu553in.su) · [Resume](https://hu553in.su/resume.pdf) ·
+[Website](https://hu553in.dev) · [Resume](https://hu553in.dev/resume.pdf) ·
 [LinkedIn](https://www.linkedin.com/in/ruslan-khasanshin) · [Email](mailto:r.m.khasanshin@gmail.com)
 
 <div align="center">

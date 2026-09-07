@@ -69,7 +69,7 @@ jobs:
                 - { type: kv, key: languages.real, value: "ru, en" }
                 - { type: blank }
                 - { type: section, title: "contact" }
-                - { type: kv, key: site, value: "hu553in.su" }
+                - { type: kv, key: site, value: "hu553in.dev" }
                 - { type: kv, key: email, value: "r.m.khasanshin@gmail.com" }
                 - { type: kv, key: linkedin, value: "linkedin.com/in/ruslan-khasanshin" }
                 - { type: kv, key: telegram, value: "t.me/rkhasanshin" }
