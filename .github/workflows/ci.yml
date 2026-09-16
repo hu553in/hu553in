@@ -55,18 +55,24 @@ jobs:
               lowercase: true
               lines:
                 - { type: header, text: "hu553in" }
-                - { type: kv, key: role, value: "senior software engineer — product & platform" }
+                - { type: kv, key: role, value: "senior software engineer — backend & full-stack" }
                 - { type: kv, key: work, value: "senior backend engineer @ qic digital hub" }
                 - { type: kv, key: product, value: "building voomy" }
                 - { type: kv, key: uptime, value: "{uptime} in the industry" }
                 - { type: blank }
-                - { type: kv, key: skills.product, value: "ts, js, react, next.js" }
-                - { type: kv, key: skills.backend, value: "node/bun, go, java/kotlin, python/django, grpc/proto" }
-                - { type: kv, key: skills.data, value: "postgres/postgis, clickhouse, redis, kafka" }
-                - { type: kv, key: skills.platform, value: "otel, prometheus, grafana, docker, k8s" }
-                - { type: kv, key: skills.ops, value: "gitlab ci, github actions, ansible" }
                 - { type: kv, key: interests, value: "ai, vibe coding, oss, self-hosting, product design" }
-                - { type: kv, key: languages.real, value: "ru, en" }
+                - { type: kv, key: languages, value: "ru, en" }
+                - { type: blank }
+                - { type: section, title: "skills" }
+                - type: kv
+                  key: backend
+                  value: |-
+                    go, java/kotlin, spring, node/bun, python/django,
+                    grpc/protobuf
+                - { type: kv, key: frontend, value: "typescript, react, next.js" }
+                - { type: kv, key: data & messaging, value: "postgres/postgis, redis, clickhouse, kafka, rabbitmq" }
+                - { type: kv, key: platform, value: "docker, k8s, opentelemetry, prometheus, grafana" }
+                - { type: kv, key: delivery, value: "gitlab ci, github actions, ansible" }
                 - { type: blank }
                 - { type: section, title: "contact" }
                 - { type: kv, key: site, value: "hu553in.dev" }

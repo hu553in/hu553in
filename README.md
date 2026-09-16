@@ -1,9 +1,9 @@
 # Ruslan Khasanshin
 
-**Senior Software Engineer — Product & Platform**
+**Senior Software Engineer — Backend & Full-Stack**
 
-I build products end to end and the platform foundations behind them — distributed systems,
-developer tooling, observability, and product UI.
+I build Go and Java/Kotlin backends and full-stack products with TypeScript and React. My work
+includes APIs, integrations, data synchronization, observability, and developer tooling.
 
 Currently building [voomy](https://voomy.tv/product).
 
