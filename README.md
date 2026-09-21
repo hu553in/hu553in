@@ -5,7 +5,7 @@
 I build Go and Java/Kotlin backends and full-stack products with TypeScript and React. My work
 includes APIs, integrations, data synchronization, observability, and developer tooling.
 
-Currently building [voomy](https://voomy.tv/product).
+Currently building [voomy](https://voomy.tv/product), a pre-launch creator platform.
 
 [Website](https://hu553in.dev) · [Resume](https://hu553in.dev/resume.pdf) ·
 [LinkedIn](https://www.linkedin.com/in/ruslan-khasanshin) · [Email](mailto:r.m.khasanshin@gmail.com)
