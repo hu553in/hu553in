@@ -1,6 +1,6 @@
 # Ruslan Khasanshin
 
-**Senior Software Engineer — Backend & Full-Stack**
+**Senior Software Engineer · Backend & Full-Stack**
 
 I build Go and Java/Kotlin backends and full-stack products with TypeScript and React. My work
 includes APIs, integrations, data synchronization, observability, and developer tooling.

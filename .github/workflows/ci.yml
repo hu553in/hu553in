@@ -55,7 +55,7 @@ jobs:
               lowercase: true
               lines:
                 - { type: header, text: "hu553in" }
-                - { type: kv, key: role, value: "senior software engineer — backend & full-stack" }
+                - { type: kv, key: role, value: "senior software engineer · backend & full-stack" }
                 - { type: kv, key: work, value: "senior backend engineer @ qic digital hub" }
                 - { type: kv, key: product, value: "building voomy" }
                 - { type: kv, key: uptime, value: "{uptime} in the industry" }
@@ -71,7 +71,11 @@ jobs:
                     grpc/protobuf
                 - { type: kv, key: frontend, value: "typescript, react, next.js" }
                 - { type: kv, key: data & messaging, value: "postgres/postgis, redis, clickhouse, kafka, rabbitmq" }
-                - { type: kv, key: platform, value: "docker, k8s, opentelemetry, prometheus, grafana" }
+                - type: kv
+                  key: platform
+                  value: |-
+                    aws, gcp, azure, docker, k8s,
+                    opentelemetry, prometheus, grafana
                 - { type: kv, key: delivery, value: "gitlab ci, github actions, ansible" }
                 - { type: blank }
                 - { type: section, title: "contact" }
