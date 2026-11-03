@@ -1,15 +1,14 @@
 .DEFAULT_GOAL := check
 
-PRETTIER := bunx prettier -u
 ACTIONLINT := bunx github-actionlint
 
 .PHONY: lint
 lint:
-	$(PRETTIER) -c .
+	bun fmt --check
 
 .PHONY: lint-fix
 lint-fix:
-	$(PRETTIER) -w .
+	bun fmt
 
 .PHONY: check-config
 check-config:
