@@ -1,10 +1,10 @@
 # Development
 
-Make, Bun and Git 2.54 or newer are required. After cloning, enable the tracked project-check and
-Commitlint hooks once:
+Make, Bun, and [prek](https://prek.j178.dev/installation/) are required. After cloning, enable the
+project-check and Commitlint hooks once:
 
 ```bash
-git config --local include.path ../.gitconfig
+prek install
 ```
 
 Run `make check` to validate formatting, the Renovate configuration, and GitHub Actions workflows.

@@ -1,5 +1,6 @@
 .DEFAULT_GOAL := check
 
+PREK ?= prek
 ACTIONLINT := bunx github-actionlint
 
 .PHONY: lint
@@ -12,7 +13,7 @@ lint-fix:
 
 .PHONY: check-config
 check-config:
-	git config --file .gitconfig --list >/dev/null
+	$(PREK) validate-config prek.toml
 
 .PHONY: check-renovate
 check-renovate:
