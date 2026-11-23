@@ -7,8 +7,8 @@ project-check and Commitlint hooks once:
 prek install
 ```
 
-Run `make check` to validate formatting, the Renovate configuration, and GitHub Actions workflows.
-Use `make lint-fix` to apply formatting fixes or `make check-fix` to format and rerun the full gate.
+Run `make check` to validate formatting and GitHub Actions workflows. Use `make lint-fix` to apply
+formatting fixes or `make check-fix` to format and rerun the full gate.
 
 ## Generated profile assets
 
