@@ -1,14 +1,13 @@
 # Development
 
-Make, Bun, and [prek](https://prek.j178.dev/installation/) are required. After cloning, enable the
-project-check and Commitlint hooks once:
+Make and Bun are required. After cloning, install the Git hooks.
 
 ```bash
-prek install
+bunx lefthook install
 ```
 
-Run `make check` to validate formatting and GitHub Actions workflows. Use `make lint-fix` to apply
-formatting fixes or `make check-fix` to format and rerun the full gate.
+Run `make check` to validate formatting, the hook configuration, and GitHub Actions workflows. Use
+`make lint-fix` to apply formatting fixes or `make check-fix` to format and rerun the full gate.
 
 ## Generated profile assets
 

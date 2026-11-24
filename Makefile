@@ -1,6 +1,5 @@
 .DEFAULT_GOAL := check
 
-PREK ?= prek
 ACTIONLINT := bunx --minimum-release-age 259200 github-actionlint
 
 .PHONY: lint
@@ -11,16 +10,16 @@ lint:
 lint-fix:
 	bun fmt
 
-.PHONY: check-config
-check-config:
-	$(PREK) validate-config prek.toml
+.PHONY: check-hooks
+check-hooks:
+	bunx --minimum-release-age 259200 lefthook validate
 
 .PHONY: check-workflows
 check-workflows:
 	$(ACTIONLINT)
 
 .PHONY: check
-check: lint check-config check-workflows
+check: lint check-hooks check-workflows
 
 .PHONY: check-fix
 check-fix: lint-fix
